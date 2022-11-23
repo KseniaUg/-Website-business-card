@@ -1,0 +1,152 @@
+.work{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-txt);
+  margin-bottom: 6rem;
+}
+
+.work__title {
+  margin-left: 18rem;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  color: var(--color-txt);
+  margin-bottom: 4.5rem;
+  background-image: url(../img/Star\ normal-min.png);
+  background-repeat: no-repeat;
+  background-position: 20%;
+  background-size: auto;
+}
+
+.work__container{
+  max-width: 100%;
+}
+
+
+/* Swiper-slick */
+
+
+.wrapper__img {
+  width: 94%;
+
+}
+
+/* Default slide */
+.center-slider .slick-slide{
+  margin: 0 0 0 -16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+}
+.center-slider .slick-slide,
+.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.8, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+  transform: scale(1.1);
+
+}
+.center-slider .slick-current.slick-active{
+  transform: scale(1.1);
+
+}
+
+.slick-next, .slick-prev{
+  z-index: 5;
+}
+
+.work{
+  position: relative;
+}
+
+.slick-active {
+  margin-right: 20px;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 35%;
+  z-index: 7;
+  font-size: 0;
+  border: 0;
+  outline: none;
+  opacity: 0.7;
+  transition: all 0.2s;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slick-arrow:hover {
+  opacity: 1;
+}
+
+ .slick-arrow::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+
+}
+
+.slick-next{
+  right: 0%;
+  content: '';
+  background-image: url(../img/right.svg);
+  width: 5.4rem;
+  height: 5.4rem;
+  display: block;
+  position: absolute;
+  border-radius: 10rem;
+
+}
+
+.slick-prev{
+  left: 1%;
+  content: '';
+  background-image: url(../img/left.svg);
+  width: 5.4rem;
+  height: 5.4rem;
+  display: block;
+  position: absolute;
+  border-radius: 10rem;
+}
+
+.center-slider .slick-current.slick-active {
+  z-index: 40;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 36px;
+  padding: 0;
+}
+
+.slick-track {
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.slick-slider {
+  position: static;
+
+}
+
+.wrapper__slider {
+  position: relative;
+}
+

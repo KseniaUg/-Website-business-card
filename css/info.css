@@ -1,0 +1,65 @@
+.info {
+  padding-bottom: 5rem;
+  border-bottom: 1px solid var(--color-txt);
+  margin-bottom: 6rem;
+}
+
+.info__container {
+  background-image: url(../img/Star\ normal-min.png);
+  background-repeat: no-repeat;
+  background-position: 67% 7%;
+  background-size: auto;
+}
+
+.info__box {
+  justify-content: start;
+}
+
+.info__title {
+  margin-bottom: 3.4rem;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 4.8rem;
+  color: var(--color-txt);
+}
+
+
+.info__subtitle {
+  margin-bottom: 5rem;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 4.8rem;
+  color: var(--color-txt);
+}
+
+
+.info__paragraph {
+  padding: 1rem 1.3rem;
+  border: 1px solid #000000;
+  border-radius: 1.1rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  color: var(--color-txt);
+}
+
+.info__foto {
+   margin-right: 3rem;
+}
+
+.info__img {
+  border-radius: 1.4rem;
+}
+
+.info__content {
+  margin-top: 3rem;
+  background-image: url(../img/Star\ normal-min.png);
+  background-repeat: no-repeat;
+  background-position: 94% 94%;
+  background-size: auto;
+}
+
+
+.info__paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}

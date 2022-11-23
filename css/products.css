@@ -1,0 +1,101 @@
+
+.products {
+  padding-bottom: 5rem;
+  border-bottom: 1px solid var(--color-txt);
+  margin-bottom: 8rem;
+  background-image: url(../img/Star\ big-min.png);
+  background-repeat: no-repeat;
+  background-position: 88% 98%;
+}
+
+.products__container {
+  background-image: url(../img/Star\ small-min.png);
+  background-repeat: no-repeat;
+  background-position: 67% 5%;
+}
+
+
+
+.products__title {
+  position: relative;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 4.4rem;
+  color: var(--color-txt);
+  margin-bottom: 5rem;
+  background-image: url(../img/Star\ normal-min.png);
+  background-repeat: no-repeat;
+  background-position: 15%;
+  background-size: auto;
+}
+
+
+.products__box {
+  background-color: var(--body-bckground);
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+
+.products__content {
+  grid-row: 2 span;
+  background-image: url(../img/work3-min.jpg);
+  background-repeat: no-repeat;
+  padding: 2rem 2rem 4rem 0;
+  flex-direction: column;
+  align-items: end;
+  border-radius: 0 3.1rem 3.1rem 0;
+  background-size: cover;
+  border: 1px solid var(--color-txt);
+}
+
+
+
+.products__block {
+  background-image: url(../img/work2-min.jpg);
+  border-bottom-left-radius: 1.8rem;
+  background-size: cover;
+}
+
+.products__wrap {
+  background-image: url(../img/work1-min.jpg);
+  border-top-left-radius: 3rem;
+  background-size: cover;
+}
+
+.products__wrap,
+.products__block {
+  padding: 2rem 0 4rem 2rem;
+  min-height: 40.2rem;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid var(--color-txt);
+}
+
+.products__subtitle,
+.products__link {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+  color: var(--color-txt);
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.products__link:hover {
+   box-shadow: 0px 0px 14px 5px	rgb(255,255,255,0.75);
+
+}
+
+
+.products__subtitle {
+  padding: 1rem 1.5rem;
+}
+
+.products__link {
+  margin-top: auto;
+  padding: 1rem 2rem;
+}

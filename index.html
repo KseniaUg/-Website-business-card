@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="menuToggle icon">
+        <div class="hamburger"></div>
+    </div>
+      <div class="header__box menu flex">
+        <div class="header__nav">
+          <ul class="list header__list flex">
+            <li class="header__item">
+              <a href="" class="link header__item-link">Услуги</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="link header__item-link">Мои работы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__wrap">
+          <p class="paragraph header__paragraph">Yana Kuptsova</p>
+        </div>
+        <div class="header__icon flex">
+          <a href="#" class="link header__link">
+            <img src="./img/vk.svg" alt="Ссылка вконтакте" class="img header__img">
+          </a>
+          <a href="#" class="link header__link">
+            <img src="./img/inst.svg" alt="Ссылка инстаграм" class="img header__img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="info">
+      <div class="container info__container">
+        <h1 class="title info__title">Парикмахер-колорист</h1>
+        <div class="info__box flex">
+          <div class="info__foto">
+            <img src="./img/info-foto-min.jpg" alt="Фоторгафия" class="img info__img">
+          </div>
+          <div class="info__content">
+            <h2 class="title info__subtitle">Привет! Меня зовут Яна.</h2>
+            <div class="info__block">
+              <p class="paragraph info__paragraph">7 лет я работаю парикмахером - <br> колористом.</p>
+              <p class="paragraph info__paragraph">4 года веду блог об уходе за волосами.</p>
+              <p class="paragraph info__paragraph">1.5 года провожу оффлайн и онлайн <br> консультации и помогаю девочкам <br> отращивать красивые волосы.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <div class="container products__container">
+          <h2 class="title products__title">Услуги</h2>
+          <div class="products__box">
+            <div class="products__wrap flex">
+              <h3 class="title products__subtitle">Руководство по базовому <br> уходу за волосами</h3>
+              <a href="" class="link products__link">Купить</a>
+            </div>
+            <div class="products__content flex">
+              <h3 class="title products__subtitle">Индивидуальная консультация</h3>
+              <a href="" class="link products__link">Записаться</a>
+            </div>
+            <div class="products__block flex">
+              <h3 class="title products__subtitle">Запись на услуги в городе Саранск</h3>
+              <a href="" class="link products__link">Записаться</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="work">
+      <div class="container work__container">
+        <h2 class="title work__title">Мои работы</h2>
+          <div class="wrapper">
+            <div class="wrapper__slider center-slider">
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto1-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto2-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto3-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto4-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto5-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto6-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto7-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto8-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto9-min.jpg" alt="Фотографи работы"></div>
+                <div wrapper__item><img class="wrapper__img" src="./img/IMG_foto10-min.jpg" alt="Фотографи работы"></div>
+              </div>
+          </div>
+         </div>
+    </section>
+    <section class="consultation">
+      <div class="container consultation__container">
+        <h2 class="title consultation__title">Оставьте заявку на консультацию</h2>
+        <div class="consultation__box flex">
+          <div class="consultation__inner">
+            <img src="./img/consultation-min.jpg" alt="Фотография" class="img consultation__img">
+          </div>
+          <div class="forma consultation__forma">
+            <p class="paragraph form__paragraph consultation__forma-paragraph">Если у вас возникли вопросы, пожалуйста, <br>оставьте свои контактные данные, я свяжусь с <br> вами в ближайшее время</p>
+            <form class="myform" id="myform">
+              <ul class="list myform__list">
+                <li class="myform__item">
+              <input
+              class="myform__input myform__name"
+              id="name"
+              name="Имя"
+              type="text"
+              placeholder="Имя"
+              data-validate-field="name">
+            </li>
+            <li class="myform__item">
+              <input
+              class="myform__input myform__email"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Электронная почта"
+              data-validate-field="mail">
+            </li>
+            <li class="myform__item">
+              <input
+              class="myform__input myform__tel"
+              id="tel"
+              name="tel"
+              type="tel"
+              placeholder="Телефон"
+              data-validate-field="tel">
+            </li>
+            </ul>
+              <button class="btn form__btn">Оставить заявку</button>
+            </form>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <div class="footer__left flex">
+        <div class="footer__info">Yana Kuptsova</div>
+        <div class="footer__icon">
+          <a href="#" class="link footer__link">
+            <img src="./img/footer-vk.svg" alt="Ссылка вконтакте" class="img footer__img">
+          </a>
+          <a href="#" class="link footer__link">
+            <img src="./img/footer-inst.svg" alt="Ссылка инстаграм" class="img footer__img"></a>
+          </div>
+      </div>
+      <div class="footer__center">
+        <h3 class="title footer__title">Навигация</h3>
+        <ul class="list footer__list flex">
+          <li class="footer__item"><a href="#" class="link footer__link">Услуги</a></li>
+          <li class="footer__item"><a href="#" class="link footer__link">Мои работы</a></li>
+        </ul>
+      </div>
+      <div class="footer__right flex">
+        <a href="" class="link footer__right-link">Политика конфидециальности</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="./js/slick.js"></script>
+  <script src="./js/burger.js"></script>
+</body>
+</html>
